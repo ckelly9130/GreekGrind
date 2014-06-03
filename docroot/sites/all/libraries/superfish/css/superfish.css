@@ -226,3 +226,21 @@ li.sfHover > a > .sf-sub-indicator {
   -webkit-border-top-left-radius: 0;
   -webkit-border-bottom-right-radius: 0;
 }
+
+.sf-navbar {
+	float: left;
+	position: relative;
+	left: 50%;
+}
+.sf-navbar ul li {
+	left: 0%;
+}
+.sf-navbar li{
+	left: -50%;
+}
+
+
+
+
+
+
