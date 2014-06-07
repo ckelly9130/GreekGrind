@@ -556,3 +556,14 @@ ul.primary, ul.primary li a, ul.primary li.active a { border-color:#eaeaea; } ul
 .not-logged-in .block-forum .contextual-links-wrapper { display: none; }
 
 a.contextual-links-trigger, #toolbar a, textarea { -webkit-transition: none; -moz-transition: none; -o-transition: none; -ms-transition: none; transition: none; }
+
+/*custom css for greek grind website*/
+.node header {
+display:none;
+}
+
+.node .content, #comments, .page-contact #content-wrapper{
+padding:15px;
+}
+
+a.contextual-links-trigger, #toolbar a, textarea { -webkit-transition: none; -moz-transition: none; -o-transition: none; -ms-transition: none; transition: none; }
