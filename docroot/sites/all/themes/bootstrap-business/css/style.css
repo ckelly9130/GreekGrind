@@ -236,9 +236,11 @@ position: absolute; top: 20px; right: 17px; font-size: 11px; font-weight: 400; }
 
 .node header h2 a:hover { text-decoration: none; }
 
-.node .content, #comments, .page-contact #content-wrapper { padding: 20px 40px; }
+/*custom node code*/
+.node .content, #comments, .page-contact #content-wrapper { padding: 15px; }
 
-.node header { padding: 10px 40px 20px; }
+.node header { padding: 10px 40px 20px; display:none }
+/*end custom node code*/
 
 .node footer { padding: 20px 40px 40px; }
 
@@ -566,15 +568,6 @@ display:none;
 padding:15px;
 }
 
-a.contextual-links-trigger, #toolbar a, textarea { -webkit-transition: none; -moz-transition: none; -o-transition: none; -ms-transition: none; transition: none; }
 
-/*custom css */
-.node header {
-display:none;
-}
 
-.node .content, #comments, .page-contact #content-wrapper{
-padding:15px;
-}
 
-a.contextual-links-trigger, #toolbar a, textarea { -webkit-transition: none; -moz-transition: none; -o-transition: none; -ms-transition: none; transition: none; }
