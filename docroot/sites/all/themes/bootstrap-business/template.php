@@ -116,10 +116,10 @@ function bootstrap_business_preprocess_page(&$vars) {
     switch (true) {
       case arg(0) == 'sorority_profile' && $node->type = 'sorority_profile';
       case arg(0) == 'sigma-delta-tau':
-      case arg(0) == 'content' && arg(1) == 'sigma-delta-tau':
-      case arg(0) == 'section' && arg(1) == 'zoo':
-      case arg(0) == 'bart':
-        unset($vars['title']);
+     // case arg(0) == 'content' && arg(1) == 'sigma-delta-tau':
+     // case arg(0) == 'section' && arg(1) == 'zoo':
+    //  case arg(0) == 'bart':
+     //   unset($vars['title']);
         break;
 
 	/**
