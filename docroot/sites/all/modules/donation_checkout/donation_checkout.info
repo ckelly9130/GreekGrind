@@ -1,0 +1,3 @@
+name= Donation Checkout
+description = Replaces "Add To Cart" button text with "Donate"
+core = 7.x
